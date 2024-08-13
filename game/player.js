@@ -4,6 +4,7 @@ class Player {
     constructor(ws) {
         this.id = uuidv4();
         this.ws = ws;
+        this.cartas = [];
     }
 }
 
