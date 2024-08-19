@@ -5,6 +5,7 @@ class Player {
         this.id = uuidv4();
         this.ws = ws;
         this.cartas = [];
+        this.isBot = false;
     }
 }
 
